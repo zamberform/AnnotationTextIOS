@@ -1,0 +1,6 @@
+framework module AnnotationTextIOS {
+  umbrella header "AnnotationTextIOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

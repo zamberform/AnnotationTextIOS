@@ -1,0 +1,16 @@
+PODS:
+  - AnnotationTextIOS (0.1.0)
+
+DEPENDENCIES:
+  - AnnotationTextIOS (from `../`)
+
+EXTERNAL SOURCES:
+  AnnotationTextIOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AnnotationTextIOS: 101c50f7682091c7fddade948ffff5cba1623d63
+
+PODFILE CHECKSUM: 4fc588bbda9dbb97c899d0253ab419c0067584d8
+
+COCOAPODS: 1.6.0.beta.2

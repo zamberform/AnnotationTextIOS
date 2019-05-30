@@ -1,0 +1,22 @@
+{
+  "name": "AnnotationTextIOS",
+  "version": "0.1.0",
+  "summary": "A short description of AnnotationTextIOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/PdOuJun/AnnotationTextIOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "PdOuJun": "wang.chun@pasonadigisol.jp"
+  },
+  "source": {
+    "git": "https://github.com/PdOuJun/AnnotationTextIOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AnnotationTextIOS/Classes/**/*"
+}
