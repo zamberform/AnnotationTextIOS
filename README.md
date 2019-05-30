@@ -1,6 +1,6 @@
 # AnnotationTextIOS
 
-[!](https://github.com/zamberform/AnnotationTextIOS/blob/master/screenshots/sample0.png)
+![ScreenShot](https://github.com/zamberform/AnnotationTextIOS/blob/master/screenshots/sample0.png)
 
 [![CI Status](https://img.shields.io/travis/zamberform/AnnotationTextIOS.svg?style=flat)](https://travis-ci.org/zamberform/AnnotationTextIOS)
 [![Version](https://img.shields.io/cocoapods/v/AnnotationTextIOS.svg?style=flat)](https://cocoapods.org/pods/AnnotationTextIOS)
