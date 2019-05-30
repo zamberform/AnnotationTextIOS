@@ -171,7 +171,7 @@ extension AnnotationTextView {
                     
                     let aNLabel = UILabel()
                     aNLabel.textColor = annotationColor
-                    if let font = annotationFont {
+                    if annotationFont != nil {
                         aNLabel.font = annotationFont
                     }
                     else {

@@ -10,11 +10,11 @@ open class ANSizeUtil {
         let contentStr = content as NSString
         var resultSize = CGSize.zero
         if let realFont = font {
-            resultSize = contentStr.size(withAttributes: [NSAttributedStringKey.font: realFont])
+            resultSize = contentStr.size(withAttributes: [NSAttributedString.Key.font: realFont])
         }
         else {
             
-            resultSize = contentStr.size(withAttributes: [NSAttributedStringKey.font: UIFont.systemFont(ofSize: CGFloat(size))])
+            resultSize = contentStr.size(withAttributes: [NSAttributedString.Key.font: UIFont.systemFont(ofSize: CGFloat(size))])
         }
         
         return resultSize

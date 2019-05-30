@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		728C9E44229E742100A39504 /* AnnotationTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C9E43229E742100A39504 /* AnnotationTextView.swift */; };
-		728C9E52229FB98C00A39504 /* ANError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C9E51229FB98C00A39504 /* ANError.swift */; };
-		728C9E54229FB99700A39504 /* ANSizeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C9E53229FB99700A39504 /* ANSizeUtil.swift */; };
+		728C9E59229FC01400A39504 /* ANError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C9E55229FBFC600A39504 /* ANError.swift */; };
+		728C9E5A229FC01400A39504 /* ANSizeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C9E57229FBFD100A39504 /* ANSizeUtil.swift */; };
 		72E4D2A8C2ECBC7CE9A9353802788ABC /* Pods-AnnotationTextIOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 221E4D46C464EE0088929139587C3642 /* Pods-AnnotationTextIOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		899CAD6238072A38AB52BB7753F60808 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		9F87935474B2FF050E7B249E2BC1C328 /* AnnotationTextIOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DB1A15536C7E13CF73F9500EB3113 /* AnnotationTextIOS-dummy.m */; };
@@ -41,8 +41,8 @@
 		628D78D404FD0EC4FB0F3CD8C78A91D6 /* Pods-AnnotationTextIOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnnotationTextIOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71DC76D01505B5F1FD5BF3A90A51CC0D /* Pods-AnnotationTextIOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnnotationTextIOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		728C9E43229E742100A39504 /* AnnotationTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnnotationTextView.swift; path = AnnotationTextIOS/Classes/AnnotationTextView.swift; sourceTree = "<group>"; };
-		728C9E51229FB98C00A39504 /* ANError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ANError.swift; path = ../AnnotationTextIOS/Classes/Struct/ANError.swift; sourceTree = "<group>"; };
-		728C9E53229FB99700A39504 /* ANSizeUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ANSizeUtil.swift; path = ../AnnotationTextIOS/Classes/Util/ANSizeUtil.swift; sourceTree = "<group>"; };
+		728C9E55229FBFC600A39504 /* ANError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ANError.swift; path = ../AnnotationTextIOS/Classes/Struct/ANError.swift; sourceTree = "<group>"; };
+		728C9E57229FBFD100A39504 /* ANSizeUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ANSizeUtil.swift; path = ../AnnotationTextIOS/Classes/Util/ANSizeUtil.swift; sourceTree = "<group>"; };
 		839AEE115A8D5D206550AE446DCA44F7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		83AA7A5B4F2D480249DEBA8963B5EFC5 /* Pods-AnnotationTextIOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnnotationTextIOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8E9EE6A86FED81BA62D0AFFB41A10B65 /* Pods-AnnotationTextIOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnnotationTextIOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -158,7 +158,7 @@
 		728C9E47229E7C7000A39504 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				728C9E53229FB99700A39504 /* ANSizeUtil.swift */,
+				728C9E57229FBFD100A39504 /* ANSizeUtil.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 		728C9E4E229E923B00A39504 /* Struct */ = {
 			isa = PBXGroup;
 			children = (
-				728C9E51229FB98C00A39504 /* ANError.swift */,
+				728C9E55229FBFC600A39504 /* ANError.swift */,
 			);
 			path = Struct;
 			sourceTree = "<group>";
@@ -332,10 +332,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				728C9E59229FC01400A39504 /* ANError.swift in Sources */,
+				728C9E5A229FC01400A39504 /* ANSizeUtil.swift in Sources */,
 				9F87935474B2FF050E7B249E2BC1C328 /* AnnotationTextIOS-dummy.m in Sources */,
 				728C9E44229E742100A39504 /* AnnotationTextView.swift in Sources */,
-				728C9E52229FB98C00A39504 /* ANError.swift in Sources */,
-				728C9E54229FB99700A39504 /* ANSizeUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -30,3 +30,7 @@ zamberform <brightzamber@gmail.com>
 ## License
 
 AnnotationTextIOS is available under the MIT license. See the LICENSE file for more info.
+
+## Android
+
+You can Also check the [Android Version](https://github.com/zamberform/AnnotationTextAndroid)

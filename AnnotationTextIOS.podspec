@@ -24,13 +24,13 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/zamberform/AnnotationTextIOS'
-  s.screenshots     = 'https://github.com/zamberform/AnnotationTextAndroid/tree/master/screenshots/sample0.png'
+  s.screenshots     = 'https://github.com/zamberform/AnnotationTextIOS/tree/master/screenshots/sample0.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zamberform' => 'brightzamber@gmail.com' }
   s.source           = { :git => 'https://github.com/zamberform/AnnotationTextIOS.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
-
+  s.swift_version = '5.0'
   s.source_files = 'AnnotationTextIOS/Classes/**/*'
   
   # s.resource_bundles = {
